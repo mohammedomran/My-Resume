@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4 {
+    font-family: 'Coda', cursive;
+	letter-spacing: 1px;
+    font-weight: bold;
+    color: #005c85;
+}
+span, p, a {
+    font-size: 18px;
+    color: #555;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+}
+i {
+    color: #005c85;
+}
+
+
+
+
+body {
+    background: #eee;
+    padding-top: 100px;
+    height: 2000px;
+}
+.cv {
+    margin: auto;
+    width: 80%;
+    height: 1600px;
+    box-shadow: 0 0 15px 5px #888888;
+}
+.left-wedget, .right-wedget {
+    float: left;
+}
+.left-wedget {
+    width: 15%;
+    height: 100%;
+    background: #005c85;
+    
+}
+.right-wedget {
+    width: 85%;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.right-wedget .details .basic-info > div, .right-wedget .details .my-profiles > div {
+    margin-bottom: 12px;
+}
+.right-wedget .details .basic-info i, .right-wedget .details .my-profiles i {
+    margin-right: 20px;
+    width: 10px;
+}
+.right-wedget .details .my-profiles a {
+    text-decoration: none;
+    color: #005c85;
+    transition: all 0.5s ease-in-out;
+}
+.right-wedget .details .my-profiles a:hover {
+    color: #043349;
+}
+
+.right-wedget .skills .skills-header i, .right-wedget .skills .skills-header h3 {
+    display: inline-block;
+}
+.right-wedget .skills .skills-header i {
+    margin-right: 5px;
+    background: #005c85;
+    padding: 10px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+
+
+.skill {
+    margin-bottom: 15px;
+}
+.skill > span, .skill .bar {
+    display: inline-block;
+}
+.skill > span {
+    width: 100px;
+    margin-right: 20px;
+}
+.skill > span {
+    margin-left: 12px;
+}
+.skill .bar {
+    height: 18px;
+    width: 300px;
+    border-radius: 20px;
+    background: #d4d1d1;
+}
+.skill .bar .inner-bar {
+    display: block;
+    border-radius: 20px;
+    height: 100%;
+    background: #005c85;
+    z-index: 9999;
+}
+
+
+
+
+.latest-work .work {
+    width: 33.3333333%;
+    float: left;
+}
+.work .img-div1, .work .img-div2, .work .img-div3 {
+    width: 260px;
+    height: 250px;
+    background-position: center center;
+    background-size: cover;
+    border: 1px solid #000;
+}
+.work .img-div1 {
+    background-image: url("tanatos.png");
+}
+.work .img-div2 {
+    background-image: url("Designest%202.png");
+}
+.work .img-div3 {
+    background-image: url("agency.png");
+}
+.work > div {
+    margin-top: 15px;
+}
+.work h4 {
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
